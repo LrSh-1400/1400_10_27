@@ -1,0 +1,77 @@
+
+
+
+
+//  Generic Classes
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Gnrc_01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            Console.Title = "";
+
+            /*
+              [In reply to AliRezaa Shahaamat]
+              بلد بودن نمی خواد
+            */
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            List<int> a = new List<int>();
+
+            a.Add(10);
+            a.Add(20);
+            a.Add(30);
+
+            foreach (int i in a)
+            {
+                Console.WriteLine(i);
+                //print(i);
+
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+            List<float> a_List_float = new List<float>();
+
+            a_List_float.Add(10.3f);
+            a_List_float.Add(20.5f);
+            a_List_float.Add(30.65f);
+
+            foreach (float i in a_List_float)
+            {
+                Console.WriteLine(i);
+                //print(i);
+
+
+            }
+
+            Console.WriteLine();
+            Console.WriteLine();
+
+
+            Console.ReadLine();
+
+
+        }
+    }
+}
+
+
+
+
+
